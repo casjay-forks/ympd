@@ -24,7 +24,7 @@ var pagination = 0;
 var browsepath;
 var lastSongTitle = "";
 var current_song = new Object();
-var MAX_ELEMENTS_PER_PAGE = 512;
+var MAX_ELEMENTS_PER_PAGE = 256;
 var dirble_selected_cat = "";
 var dirble_catid = "";
 var dirble_page = 1;

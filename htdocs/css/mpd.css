@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 50px;
 }
 
@@ -41,46 +41,52 @@ body {
   background-image: none;
   outline: 0;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  color: #428bca;
-  background-color: #fdfdfd;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   border-color: #adadad;
 }
 
-@media (max-width: 1199px) {
-#btn-responsive-block > .btn {
-  padding: 6px 12px;
-  font-size: 14px;
-  border-radius: 4px;
+@media (max-width: 768px) {
+  #btn-responsive-block > .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
   }
 }
 
-#salamisandwich td:nth-last-child(2), th:nth-last-child(2) {
+#salamisandwich td:nth-last-child(2),
+th:nth-last-child(2) {
   text-align: right;
 }
 
 #salamisandwich td:nth-child(2) span {
-  font-style:italic;
-  font-size:90%;
+  font-style: italic;
+  font-size: 90%;
 }
 
 tbody {
   cursor: pointer;
 }
 
-td:last-child, td:first-child {
+td:last-child,
+td:first-child {
   width: 30px;
 }
 
 .notifications {
   position: fixed;
   z-index: 9999;
+  color: #fff;
+  background-color: #000;
+  border-color: #adadad;
 }
 
-/* Positioning */ 
+/* Positioning */
 .notifications.top-right {
   right: 10px;
   top: 60px;
+  color: #fff;
+  background-color: #000;
+  border-color: #adadad;
 }
 
 /* Notification Element */
@@ -88,6 +94,9 @@ td:last-child, td:first-child {
   position: relative;
   z-index: 9999;
   margin: 5px 0px;
+  color: #fff;
+  background-color: #000;
+  border-color: #adadad;
 }
 
 button {
@@ -95,7 +104,7 @@ button {
 }
 
 #trashmode span:last-child {
-  display:inline-block;
-  text-align:left;
-  width:2.8em;
+  display: inline-block;
+  text-align: left;
+  width: 2.8em;
 }
